@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Genie AI
 
-## Getting Started
+Genie AI is an AI-powered assistant designed to help users with cooking-related tasks. It can generate recipes based on ingredients, answer any cooking-related questions, and create stunning food images from text descriptions.
 
-First, run the development server:
+## Features
+- **Recipe Generator**: Input ingredients, and Genie AI will suggest delicious recipes you can make with them.
+- **Cooking Assistant**: Ask Genie AI cooking-related questions, and it will provide helpful answers and tips.
+- **Food Image Generator**: Describe a dish or ingredient, and Genie AI will generate a stunning image of the food.
+  
+## How It Works
+1. **Recipe Generation**: You can enter a list of ingredients you have, and Genie AI will use its deep learning models to suggest a recipe based on those ingredients.
+2. **Answering Questions**: Ask questions related to cooking, ingredients, or nutrition, and Genie AI will provide an accurate and helpful response.
+3. **Food Image Generation**: By describing a dish or food in text, Genie AI will generate an image that represents the description.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Screenshot
+Here is a preview of the Genie AI interface in action:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Genie AI Preview](./public/github/image-generator.png)
+![Genie AI Preview](./public/github/image-generator-2.png)
+![Genie AI Preview](./public/github/recipe-generatoe.png)
+![Genie AI Preview](./public/github/ask-ai.png)

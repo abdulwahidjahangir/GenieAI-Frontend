@@ -17,7 +17,7 @@ export default function Home() {
       <Header activeTab={activeTab} handleTabChange={handleTabChange} />
 
       {activeTab === 'image-generator' && <ImageGenrator />}
-      {activeTab === 'chat' && <Chat />}
+      {activeTab === 'ASK' && <Chat />}
       {activeTab === 'recipe-generator' && <RecipeGenerator />}
 
 

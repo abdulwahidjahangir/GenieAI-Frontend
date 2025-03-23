@@ -7,7 +7,7 @@ const Header = ({ activeTab, handleTabChange }) => {
                 Your AI-powered assistant—generate recipes, answer questions, and create stunning images.
             </p>
             <div className="mt-6 flex flex-wrap justify-center gap-4">
-                {["image-generator", "chat", "recipe-generator"].map((tab) => (
+                {["image-generator", "ASK", "recipe-generator"].map((tab) => (
                     <button
                         key={tab}
                         onClick={() => handleTabChange(tab)}
